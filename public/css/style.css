@@ -1,0 +1,92 @@
+body {
+  margin: 0
+}
+
+/* Exo margin */
+section{
+    background-color: #4da6ff;
+}
+h2{
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 100px;
+}
+.tartine1{
+    margin: 50px;
+}
+.tartine2{
+    margin-left: 20%;
+}
+.tartine3{
+    margin: auto;
+}
+/* fin exo margin */
+
+
+/* exo padding */
+.tartineP1{
+    padding: 50px;
+}
+.tartineP2{
+    padding-left: 20%;
+}
+/* fin exo padding */
+
+
+/* exo display */
+.tartineD1,.androD1{
+    margin: 100px;
+    padding: 100px;
+    display: inline-block;
+    /* display: inline; */
+}
+.androD1{
+    display: none;
+}
+/* fin exo display */
+
+
+/* exo Float */
+.tartineF .androF{
+    width: auto;
+    
+}
+.tartineF{
+    float: left; 
+}
+.androF{
+    float: right;
+}
+#sectionFloat{
+    overflow: scroll;
+    
+}
+/* fin exo Float */
+
+
+/* exo position */
+.tartinePos{
+    position: absolute;
+    background-color: green;
+    margin: 0;
+    top:50px;
+    left: 50%;
+    position: fixed;
+}
+.sectionR{
+    position: relative;
+}
+/* fin exo position */
+
+
+/* exo position (priorité) */
+.tartinePrio{
+    position: absolute;
+    z-index: 0;
+}
+.androPrio{
+    background-color: blue;
+    margin-left: 100px;
+    position: absolute;
+}
+/* fin exo position (priorité) */
